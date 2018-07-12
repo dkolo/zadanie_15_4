@@ -1,4 +1,3 @@
-let kodillaAray = [1, 4, 'Iwona', false, 'Nowak'],
-    firstname = kodillaAray[2],
-    lastname = kodillaAray[4];
+const kodillaAray = [1, 4, 'Iwona', false, 'Nowak'];
+const [ , ,firstname, ,lastname] = kodillaAray;
 console.log(`${firstname} ${lastname}`);
